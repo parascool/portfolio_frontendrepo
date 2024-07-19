@@ -15,6 +15,7 @@ import PostProject from './Components/pages/PostProject';
 import ProjectDetail from './Components/pages/ProjectDetail';
 import Achievements from './Components/pages/Achievements';
 import Contact from './Components/pages/Contact';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   const currentMode = useSelector((state) => state.theme.mode);
@@ -51,6 +52,7 @@ function App() {
             <Route path='/postProject' element={ <PostProject/> }/>
             <Route path='/project/:id' element={ <ProjectDetail/> }/>
             <Route path='/contact' element={ <Contact/> }/>
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer/>
           <Toaster/>

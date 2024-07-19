@@ -118,7 +118,7 @@ const ProjectDetail = () => {
       <span className="back-button" onClick={() => history.back()}>
         <i className="fa-solid fa-arrow-left"></i>&nbsp; Back
       </span>
-      <div className="project-title">
+      <div className="project-name">
         <h2>{title}</h2>
       </div>
       <div className="project-box">

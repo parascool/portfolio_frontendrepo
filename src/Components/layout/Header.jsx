@@ -1,7 +1,5 @@
 import React, { useState, useContext } from "react";
 import { AuthContext } from "../../main";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { FaRegMoon } from "react-icons/fa";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { NavLink, useNavigate } from "react-router-dom";

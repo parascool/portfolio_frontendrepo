@@ -561,35 +561,58 @@ main, nav, .header {
     .project-img img{
         width: 350px;
     }
-    .project-title{
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
 }
 @media(max-width:650px){
-    .project-box{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        padding-inline: 0.5rem;
-        gap: 2rem;
-    }
-    .project-img img{
-        width: 350px;
-    }
-    .project-img{
-        max-width: 100%;
-    }
-    .pro-det{
-      margin-inline: auto;
-      display: flex;
-    }
-    .edit-del-btn{
-      display: flex;
-      justify-content: center;
-    }
+  .project-section {
+    padding: 2rem 1.2rem;
+  }
+  .back-button{
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .project-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1788ae;
+  }
+  .project-name{
+    font-size: 1.3rem;
+  }
+  .project-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 0.5rem;
+    gap: 2rem;
+    margin-block: 0rem;
+  }
+  .project-img img {
+    width: 350px;
+  }
+  .project-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .app-visit-link{
+    justify-content: center;
+  }
+  .pro-det {
+    margin-top: 2rem;
+    margin-inline: auto;
+    display: flex;
+  }
+  .edit-del-btn {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .project-modal {
@@ -641,7 +664,7 @@ main, nav, .header {
     }
     .project-modal .modal-content .close {
       position: absolute;
-      right: 5px;
+      right: -26px;
       top: 77px;
       color: #d9534f;
     }
@@ -659,6 +682,13 @@ main, nav, .header {
       top: 64%;
     left: 8%;
   }
+}
+  @media (max-width: 380px) {
+    .project-modal .modal-content img {
+      max-width: 400px;
+      top: 64%;
+      left: -9%;
+    }
   }
 
   /* --------------------------------------------------------------------------------- */
@@ -1437,6 +1467,34 @@ label:active, .wrapper-three button{
     color: tomato;
     font-size: 0.7rem;
     font-weight: 600;
+  }
+}
+/* -----------------------notfound------------------------------------------- */
+.notfound{
+  max-width: 1500px;
+    margin: auto;
+}
+.content{
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: calc(100vh - 138px);
+}
+/* .content img{
+  width: 100%;
+} */
+.content a{
+  text-decoration: none;
+  color: var(--color);
+}
+@media(max-width:650px){
+  .content{
+    max-width: 70%;
+    margin: auto;
+  }
+  .content img{
+    width: 100%;
   }
 }
 
