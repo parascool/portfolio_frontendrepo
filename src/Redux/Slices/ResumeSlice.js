@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from 'axios';
-import FileDownload from 'js-file-download';
+import {FileDownload} from 'js-file-download';
 import  toast  from 'react-hot-toast';
 
 
