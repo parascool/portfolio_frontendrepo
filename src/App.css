@@ -467,7 +467,7 @@ main, nav, .header {
 
 }
 
-.project-title{
+.project-title, .project-name{
     display: flex;
     justify-content: space-around;
     align-items: center;
