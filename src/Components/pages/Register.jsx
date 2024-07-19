@@ -95,7 +95,7 @@ const Register = () => {
               <label>Password</label>
               <div>
                 <input
-                  type="password"
+                  type={showPassword ? 'text' : 'password'}
                   name="password"
                   placeholder="Your Password"
                   value={password}
