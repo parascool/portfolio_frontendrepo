@@ -5,7 +5,6 @@ import registerSlice from "./Slices/RegisterSlice";
 import loginSlice from "./Slices/LoginSlice";
 import postProjectSlice from './Slices/PostProjectSlice'
 import projectDetailSlice from "./Slices/ProjectDetailSlice";
-import ResumeSlice from "./Slices/ResumeSlice";
 
 export const store = configureStore({
     reducer:{
@@ -15,7 +14,6 @@ export const store = configureStore({
         login:loginSlice,
         postProject:postProjectSlice,
         projectDetail:projectDetailSlice,
-        resume: ResumeSlice
     },
 
 })

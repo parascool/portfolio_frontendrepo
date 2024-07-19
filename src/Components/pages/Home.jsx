@@ -9,20 +9,11 @@ import reactimg from '../../../public/images/reactimg.png'
 import reduximg from '../../../public/images/reduximg.png'
 import mongodbimg from '../../../public/images/mongodbimg.png'
 import nodeimg from '../../../public/images/nodeimg.jpg'
-import { getResumeData, getResume } from "../../Redux/Slices/ResumeSlice";
-import { useDispatch, useSelector } from "react-redux";
+;
 
 
 const Home = () => {
 
-  const resumeData = useSelector(getResume)
-  const dispatch = useDispatch()
-  const downloadResume = (e) => {
-    e.preventDefault()
-    dispatch(getResumeData())
-
-  }
-  
   return (
     <>
       
@@ -84,7 +75,9 @@ const Home = () => {
           </div>
         </div>
         <div className="resume">
-          <span onClick={ downloadResume}><IoDownloadOutline />Download Resume</span>
+          <span><IoDownloadOutline />
+            <a href="Paras_Pardhi_mernstack_developer.pdf" download="Paras_Pardhi_mernstack_developer.pdf">Download Resume</a>
+          </span>
         </div>
       </section>
 

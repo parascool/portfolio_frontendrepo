@@ -412,6 +412,10 @@ main, nav, .header {
   vertical-align: middle;
   font-size: 1.5rem;
 }
+.resume span a{
+  text-decoration: none;
+  color: white;
+}
 
 @media (max-width: 600px) {
     .skills-box {
