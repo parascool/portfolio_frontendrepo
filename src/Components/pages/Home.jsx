@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import { AuthContext } from "../../main"
 import { Navigate } from "react-router-dom";
 import { IoDownloadOutline } from "react-icons/io5";
-import profile from '/images/profile.jpeg'
+import profile from '/images/PROFILE.jpeg'
 import jsimg from '../../../public/images/jsimg.png'
 import htmlcss from '../../../public/images/htmlcss.png'
 import reactimg from '../../../public/images/reactimg.png'

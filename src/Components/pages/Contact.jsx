@@ -55,7 +55,7 @@ const Contact = () => {
                   <CiLinkedin /> Visit my LinkedIn profile
                 </a>
                 <a
-                  href="https://github.com/parascool"
+                   href="https://github.com/parascool"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

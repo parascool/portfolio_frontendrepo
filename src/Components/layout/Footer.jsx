@@ -10,9 +10,20 @@ const Footer = () => {
         <div className="footer-connect-icons">
           <h4>Connect with me:</h4>
           <ul>
-            <li><FaFacebookSquare/></li>
-            <li><FaYoutube/></li>
-            <li><FaLinkedin/></li>
+            <li>
+            <a
+                   href="https://github.com/parascool"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ><FaGithub /> Visit my GitHub profile</a> 
+            </li>
+            <li>
+            <a
+                  href="https://www.linkedin.com/in/paras-pardhi-976b78292"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ><FaLinkedin/>  Visit my LinkedIn profile</a>
+            </li>
           </ul>
         </div>
         <p className="footer-quote">
