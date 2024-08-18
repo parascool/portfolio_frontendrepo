@@ -9,7 +9,7 @@ const Footer = () => {
         <h3>MERN Stack Web Developer</h3>
         <br />
         <div className="footer-connect-icons">
-          <h4>Connect with me:</h4>
+          <h4>Connect with me</h4>
           <ul>
             <li>
             <a

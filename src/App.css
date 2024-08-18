@@ -212,6 +212,11 @@ main, nav, .header {
 .footer-connect-icons ul li {
     overflow-x: hidden;
 }
+.footer-connect-icons ul li a{
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
 
 .foot-copyright{
     font-size: 24px;
@@ -219,10 +224,13 @@ main, nav, .header {
     padding: 1px;
 }
 
+.footer-connect-icons h4 {
+  text-align: center;
+}
 .footer-connect-icons ul li:hover {
     color: #2d5649;
-    transform: scale(1.2);
-    transition: all 0.3s;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
 }
 
 @media(max-width:550px){
@@ -266,7 +274,7 @@ main, nav, .header {
 
 .profile-icon img{
     width: 400px; 
-    height: 400px; 
+    height: 450px; 
     border-radius: 50% ; 
     object-fit: cover; 
     border: 4px dashed #0e0bdd; 
@@ -277,7 +285,7 @@ main, nav, .header {
 @media (max-width:950px) {
     .profile-icon img {
         width: 300px;
-        height: 300px;
+        height: 350px;
     }
 }
 
